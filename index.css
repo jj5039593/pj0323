@@ -1,0 +1,163 @@
+@charset "utf-8";
+@import url(common/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+
+.section{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-con{
+
+    flex: 0 1 600px;
+  
+    height: 400px;
+  
+    position: relative;
+  
+    margin: 0 auto;
+  
+    
+  }
+  
+  .sec-con .gallery{
+  
+    width: 500%;
+  
+    height: 500px;
+  
+  
+    box-sizing: border-box;
+  
+    position: absolute;
+  
+  }
+  
+  .sec-con .gallery ul{
+  
+   display: flex;
+  
+   justify-content: space-between;
+  
+  }
+  
+  .sec-con .gallery ul li{
+  
+   flex:1;
+  
+   text-align: center;
+  
+   height: 500px;
+  
+   font-size: 30px;
+  
+  
+   box-sizing: border-box;
+  
+  }
+  
+ 
+
+  .sec-con .center-btn{
+  
+    width: 100%;
+  
+    height: auto;
+  
+    position: absolute;
+  
+    left: 0;
+  
+    top:50%;
+  
+    transform: translateY(-50%);
+  
+  
+    box-sizing: border-box;
+  
+    padding: 0 30px;
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+  }
+  
+  .sec-con .center-btn span{
+  
+    width:40px;
+  
+    height: 40px;
+  
+    border-radius: 50%;
+    background-color: seagreen;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  .sec-con .bcon{
+  
+    width: 100%;
+  
+    height: auto;
+  
+    position: absolute;
+  
+    left: 0;
+  
+    bottom: 0;
+  
+   
+  
+  
+    box-sizing: border-box;
+  
+    padding:  5px 0;
+  
+    display: flex;
+  
+    justify-content:center;
+  
+  }
+  
+  .sec-con .bcon .items{
+  
+  
+    box-sizing: border-box;
+  
+  }
+  
+  .sec-con .bcon .items ul{
+  
+    display: flex;
+  
+    justify-content:space-between;
+  
+    gap: 5px;
+  
+  }
+  
+  .sec-con .bcon .items ul li{
+  
+    width: 30px;
+  
+    height: 30px;
+    
+    border-radius: 50px;
+    border: 1px solid seagreen;
+    background-color: seagreen;
+  
+    box-sizing: border-box;
+  
+  }
+
+   
